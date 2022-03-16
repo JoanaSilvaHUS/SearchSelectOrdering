@@ -45,7 +45,10 @@ bool readDouble(double *ptVal);
  * @return false otherwise
  */
 bool readChar(char *ptVal);
-
+void bubbleSort(int arr[], int arrSize);
+void selectionSort(int arr[], int arrSize);
+int minimumIndex(int arr[], int arrlength);
+int maximumIndex(int arr[], int arrlength);
 /**
  * @brief Reads a "string" from standard input.
  * 
