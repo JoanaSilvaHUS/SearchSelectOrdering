@@ -29,7 +29,7 @@ int main() {
     minimumIndex(v, LEN);
     selectionSort(v, LEN);
     bubbleSort(v, LEN);
-    
+
     if(index != -1) {
         printf("The number %d exists at position %d of the array!\n", val, index);
     } else {
@@ -123,7 +123,7 @@ void bubbleSort(int arr[], int arrSize)
 {
     for(int i=0; i<arrSize; i++)
     {
-        for(int j=0; j<arrSize-i-1; j++)
+        for(int j=1; j<arrSize-i-1; j++)
         {
             if(arr[j] > arr[j+1])
             {
